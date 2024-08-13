@@ -1,0 +1,75 @@
+<html>  
+<head>   
+<title>  
+Registration Page  
+</title>  
+</head>  
+<body bgcolor="gray">  
+<center>
+<img src="https://www.auf.edu.ph/home/images/logo2.png" />
+<hr />
+</center>
+
+<form action="target.php" method="POST"> 
+    <label> First Name <:/label>         
+    <input type="text" name="firstname" size="15"/>
+    <label> Middle Name: </label>     
+    <input type="text" name="middlename" size="15"/>
+    <label> Last Name: </label>         
+    <input type="text" name="lastname" size="15"/> 
+    <br>  <br>
+    
+    Birthdate:  
+    <input type="date" name="birthdate"/> <br>   
+    <br>
+    <label>Sex:</label><br>  
+    <input type="radio" name="sex" value="male" checked="checked" /> Male <br>  
+    <input type="radio" name="sex" value="female" /> Female
+</br> 
+    <br> <br>  
+    Email:  
+    <input type="email" name="email"/> 
+    <br></br>
+    Address  
+    <br>  
+    <textarea cols="80" rows="5" name="address"></textarea>  
+    <br></br>
+    <label>College Department:</label>   
+    <select name="program">
+    <option value="BSA">CED</option>  
+    <option value="BSBA">CCS</option>  
+    <option value="BSEE">CED</option>  
+    <option value="BSIT">CON</option>  
+    <option value="BSCS">CCS</option>
+    </select>  
+    
+    <br></br>
+    <label>Program:</label>   
+    <select name="program">
+    <option value="BSA">BS Accountancy</option>  
+    <option value="BSBA">BS Business Administration</option>  
+    <option value="BSEE">BS Electronics Engineering</option>  
+    <option value="BSIT">BS Information Technology</option>  
+    <option value="BSCS">BS Computer Science</option>
+    </select>  
+    
+    <br>  </br>  
+    <label>Phone:</label>  
+    <select name="phone">
+    <option value="+63">+63</option>  
+    <option value="+91">+91</option>  
+    <option value="+62">+62</option>  
+    <option value="+1">+1</option>  
+    <option value="+83">+83</option>
+    </select>   
+    <input type="number" name="phone_number" size="10"/> <br> <br> 
+
+
+     
+      <br> <br>     
+    <input type="reset" value="Reset">
+    <input type="submit" value="Register Now"/>  
+</form>  
+
+</body>  
+</html>  
